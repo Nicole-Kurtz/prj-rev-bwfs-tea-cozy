@@ -1,0 +1,204 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+p {
+  opacity: 1;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+/* Header */
+header {
+  display: flex;
+  border-bottom: 1px seashell solid;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+}
+
+.logo img {
+  width: 157px;
+  height: 50px;
+  margin-left: 10px;
+  opacity: 0.9;
+  padding-right: 760px;
+}
+
+.nav span {
+  text-decoration: underline;
+}
+
+/* Mission section */
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  margin: 50px;
+  background-image: url("/Users/nkurtz/Desktop/Code_Academy/Projects/TeaCozy/resources/images/img-mission-background.jpg")
+}
+
+.mission .mission-content {
+  background-color: black;
+  width: 1200px;
+  height: 150px;
+}
+
+/* Tea of the Month section */
+.month {
+  display: flex;
+  width: 1000px;
+  height: 400px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#month-content {
+  flex-wrap: wrap;
+  padding-left: 100px;
+}
+
+.month .berry {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  margin: 10px;
+  align-content: flex-center;
+}
+
+.month .berry h4 {
+  margin-top: 10px;
+}
+
+.month .spiced {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  margin: 10px;
+}
+
+.month .spiced h4 {
+  margin-top: 10px;
+}
+
+.month .donut {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  margin: 10px;
+}
+
+.month .donut h4 {
+  margin-top: 10px;
+}
+
+.month .myrtle {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  margin: 10px;
+}
+
+.month .myrtle h4 {
+  margin-top: 10px;
+}
+
+.month .bedford {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  margin: 10px;
+}
+
+.month .bedford h4 {
+  margin-top: 10px;
+}
+
+/* Location section */
+.location {
+  display: flex;
+  width: 1200px;
+  height: 575px;
+  margin-top: 200px;
+  margin-left: 50px;
+  justify-content: center;
+  background-image: url("/Users/nkurtz/Desktop/Code_Academy/Projects/TeaCozy/resources/images/img-locations-background.jpg");
+}
+
+.location .downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  padding-top: 15px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.location .downtown .content {
+  justify-content: center;
+}
+
+.location .east {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  padding-top: 15px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.location .east .content {
+  justify-content: center;
+}
+
+.location .oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  padding-top: 15px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.location .oakdale .content {
+  justify-content: center;
+}
+
+/* contact us section */
+.contact {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+
+}
+
+/* footer */
+footer {
+display: flex;
+justify-content: flex-start;
+width: 100%;
+margin-left: 20px;
+}
